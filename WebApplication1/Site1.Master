@@ -17,6 +17,11 @@
     <!--our custom css-->
     <link href="css/myStyleSheet.css" rel="stylesheet" />
 
+    <!--to get the datatables to work-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <link href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css" rel="stylesheet" type="text/css" />
+
 
     <!--bootstrap js-->
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -30,7 +35,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        
+
         <div>
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#">
@@ -43,7 +48,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto" style="width:70%">
+                    <ul class="navbar-nav mr-auto" style="width: 70%">
                         <li class="nav-item active">
                             <a class="nav-link" href="homepage.aspx">Home</a>
                         </li>
@@ -60,7 +65,7 @@
                         <li class="nav-item active">
                             <asp:LinkButton class="nav-link" ID="ViewBooks" runat="server" OnClick="ViewBooks_Click">View Books</asp:LinkButton>
                         </li>
-                        
+
                         <li class="nav-item active">
                             <asp:LinkButton class="nav-link" ID="UserLogin" runat="server" OnClick="UserLogin_Click">User Login</asp:LinkButton>
                         </li>
@@ -112,7 +117,7 @@
             <div id="footer2" class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                        <p style="color:whitesmoke">&copy All right Reversed. <a class="footerlinks" href="#" target="_blank">Ivan Konta</a></p>
+                        <p style="color: whitesmoke">&copy All right Reversed. <a class="footerlinks" href="#" target="_blank">Ivan Konta</a></p>
                     </div>
                 </div>
             </div>

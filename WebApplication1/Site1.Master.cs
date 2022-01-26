@@ -132,6 +132,8 @@ namespace WebApplication1
             BookIssuing.Visible = false;
             MemberMgmt.Visible = false;
 
+            Response.Redirect("homepage.aspx");
+
         }
     }
 }
