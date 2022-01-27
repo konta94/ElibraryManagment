@@ -73,6 +73,8 @@
     <Content Include="adminlogin.aspx" />
     <Content Include="adminmembermanagment.aspx" />
     <Content Include="adminpublishermanagment.aspx" />
+    <Content Include="book_inventory\b1.jpg" />
+    <Content Include="book_inventory\books1.png" />
     <Content Include="books\b1.jpg" />
     <Content Include="books\b2.jpg" />
     <Content Include="books\b3.jpg" />
@@ -1903,6 +1905,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
