@@ -73,6 +73,10 @@
     <Content Include="adminlogin.aspx" />
     <Content Include="adminmembermanagment.aspx" />
     <Content Include="adminpublishermanagment.aspx" />
+    <Content Include="App_Data\elibraryDB.mdf" />
+    <Content Include="App_Data\elibraryDB_log.ldf">
+      <DependentUpon>elibraryDB.mdf</DependentUpon>
+    </Content>
     <Content Include="book_inventory\b1.jpg" />
     <Content Include="book_inventory\books1.png" />
     <Content Include="books\b1.jpg" />
