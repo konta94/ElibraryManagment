@@ -104,7 +104,7 @@ namespace WebApplication1
 
         protected void ViewBooks_Click(object sender, EventArgs e)
         {
-            Response.Redirect("WAIT 22");
+            Response.Redirect("viewbooks.aspx");
         }
 
         protected void UserSignUp_Click(object sender, EventArgs e)
