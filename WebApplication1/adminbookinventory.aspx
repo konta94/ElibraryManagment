@@ -61,16 +61,16 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <label>Book ID</label>
                                 <div class="mb-3">
                                     <div class="input-group">
                                         <asp:TextBox CssClass="form-control" ID="textBox_bookid" runat="server" placeholder="Book ID"></asp:TextBox>
-                                        <asp:LinkButton class="btn btn-primary" ID="Button_GO" runat="server" OnClick="Button_GO_Click">GO</asp:LinkButton>
+                                        <asp:Button class="btn btn-primary" ID="Button_GO" runat="server" Text="GO" OnClick="Button_GO_Click" />
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-md-8">
                                 <label>Book Name</label>
                                 <div class="mb-3">
                                     <asp:TextBox CssClass="form-control" ID="textBox_bookname" runat="server" placeholder="Full Name"></asp:TextBox>

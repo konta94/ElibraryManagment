@@ -39,7 +39,7 @@ namespace WebApplication1
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton Button_GO;
+        protected global::System.Web.UI.WebControls.Button Button_GO;
 
         /// <summary>
         /// textBox_bookname control.
