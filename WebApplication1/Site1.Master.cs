@@ -135,5 +135,10 @@ namespace WebApplication1
             Response.Redirect("homepage.aspx");
 
         }
+
+        protected void HelloUser_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("userprofile.aspx");
+        }
     }
 }
